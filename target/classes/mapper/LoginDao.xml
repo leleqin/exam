@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.eurasia.dao.LoginDao">
+    <select id="studentLogin" parameterType="edu.eurasia.entity.Users" resultType="edu.eurasia.entity.Users" >
+        select * from users where uname=#{uname} and upwd =#{upwd} and utype = #{utype}
+    </select>
+
+    <select id="teacherLogin" parameterType="edu.eurasia.entity.Users" resultType="edu.eurasia.entity.Users" >
+        select * from users where uname=#{uname} and upwd =#{upwd} and utype = #{utype}
+    </select>
+
+    <select id="queryProfession" parameterType="edu.eurasia.untils.PageUtils" resultType="edu.eurasia.entity.User">
+        select * from users limit #{currentIndex},#{limitIndex};
+    </select>
+
+    <select id="queryCount" resultType="Integer">
+        SELECT COUNT(*) FROM users;
+    </select>
+</mapper>

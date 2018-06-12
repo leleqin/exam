@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.eurasia.dao.TestDao">
+    <select id="allTest" resultType="edu.eurasia.entity.Test" >
+        select * from test
+    </select>
+
+    <delete id="deleteTest" parameterType="edu.eurasia.entity.Test">
+        delete from test where tid = #{tid}
+    </delete>
+
+    <insert id="addTest" parameterType="edu.eurasia.entity.Test">
+        insert into test (tname, ta, tb, tc, td, answder) values (#{tname},#{ta},#{tb},#{tc},#{td},#{answder})
+    </insert>
+</mapper>

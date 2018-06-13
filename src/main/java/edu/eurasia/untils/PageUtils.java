@@ -1,9 +1,5 @@
 package edu.eurasia.untils;
 
-/**
- * @author:Yang
- * @date:2018/6/6
- */
 public class PageUtils {
     /**
      * 页数

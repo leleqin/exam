@@ -2,12 +2,21 @@ package edu.eurasia.entity;
 
 public class Test {
     private int tid;
+    private int cid;
     private String tname;
     private String ta;
     private String tb;
     private String tc;
     private String td;
     private String answder;
+
+    public int getCid() {
+        return cid;
+    }
+
+    public void setCid(int cid) {
+        this.cid = cid;
+    }
 
     public int getTid() {
         return tid;

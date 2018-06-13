@@ -20,6 +20,25 @@
 </head>
 
 <body>
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+    <legend>选择要添加题库的课程</legend>
+</fieldset>
+<form class="layui-form" action="">
+<div class="layui-form-item">
+    <div class="layui-inline">
+        <label class="layui-form-label">课程</label>
+        <div class="layui-input-inline">
+            <select id="cid" lay-verify="required">
+                <option value=""></option>
+                <option value="1">Java</option>
+                <option value="2">C</option>
+                <option value="3">数据结构</option>
+            </select>
+        </div>
+    </div>
+</div>
+</form>
+
 
 <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
     <legend>添加题库</legend>
@@ -57,17 +76,19 @@
                 <input type="text" id="td" name="title" lay-verify="title" autocomplete="off" placeholder="请输入D选项" class="layui-input">
             </div>
         </div>
+        <div class="layui-form-item">
         <div class="layui-inline">
             <label class="layui-form-label">答案</label>
             <div class="layui-input-inline">
                 <select id="answder" lay-verify="required">
                     <option value=""></option>
-                    <option value="1">A</option>
-                    <option value="2">B</option>
-                    <option value="3">C</option>
-                    <option value="4">D</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
                 </select>
             </div>
+        </div>
         </div>
     <div class="layui-form-item">
         <div class="layui-input-block">
@@ -100,7 +121,7 @@
             $.ajax({
                 type:'post',
                 url:'/select/addTest',
-                data:{tname:$("#tname").val(),ta:$("#ta").val(),tb:$("#tb").val(),tc:$("#tc").val(),td:$("#td").val(),answder:$("#answder").val()},
+                data:{cid:$("#cid").val(),tname:$("#tname").val(),ta:$("#ta").val(),tb:$("#tb").val(),tc:$("#tc").val(),td:$("#td").val(),answder:$("#answder").val()},
             })
             layer.msg('添加成功', {icon: 6, time: 500}, function () {
                 location.reload();

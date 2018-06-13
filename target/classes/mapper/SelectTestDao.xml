@@ -12,6 +12,15 @@
     </delete>
 
     <insert id="addTest" parameterType="edu.eurasia.entity.Test">
-        insert into test (tname, ta, tb, tc, td, answder) values (#{tname},#{ta},#{tb},#{tc},#{td},#{answder})
+        insert into test (cid,tname, ta, tb, tc, td, answder) values (#{cid},#{tname},#{ta},#{tb},#{tc},#{td},#{answder})
     </insert>
+
+    <select id="testCount" resultType="Integer">
+        select COUNT(*) from test
+    </select>
+
+    <select id="singlePageTest" parameterType="edu.eurasia.untils.PageUtils" resultType="edu.eurasia.entity.Test">
+        select * from test limit #{currentIndex},#{limitIndex};
+    </select>
+
 </mapper>

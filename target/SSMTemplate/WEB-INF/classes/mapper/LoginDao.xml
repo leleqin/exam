@@ -10,12 +10,4 @@
     <select id="teacherLogin" parameterType="edu.eurasia.entity.Users" resultType="edu.eurasia.entity.Users" >
         select * from users where uname=#{uname} and upwd =#{upwd} and utype = #{utype}
     </select>
-
-    <select id="queryProfession" parameterType="edu.eurasia.untils.PageUtils" resultType="edu.eurasia.entity.User">
-        select * from users limit #{currentIndex},#{limitIndex};
-    </select>
-
-    <select id="queryCount" resultType="Integer">
-        SELECT COUNT(*) FROM users;
-    </select>
 </mapper>

@@ -2,6 +2,7 @@ package edu.eurasia.dao;
 
 
 import edu.eurasia.entity.Test;
+import edu.eurasia.untils.PageUtils;
 
 import java.util.List;
 
@@ -23,4 +24,23 @@ public interface TestDao {
      * @param test
      */
     void addTest(Test test);
+
+    /**
+     * 查询题库总数
+     * @return
+     */
+    Integer testCount();
+
+    /**
+     * 查询单页显示的数据
+     * @param pageUtils
+     * @return
+     */
+    List<Test> singlePageTest(PageUtils pageUtils);
+
+    /**
+     * 编辑题目
+     * @param id
+     */
+    void updateTest(int id);
 }

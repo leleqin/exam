@@ -43,7 +43,7 @@
         <div id="login" class="page-login-main animation-fade">
             <div class="vertical-align">
                 <div class="vertical-align-middle">
-                    <h2 class="hidden-xs" style="font-size: 24px;">学生登陆</h2>
+                    <h2 class="hidden-xs" style="font-size: 24px;">老师登录</h2>
                     <p class="hidden-xs">Eurasia Decision Support System</p>
                     <div class="login-form fv-form fv-form-bootstrap" id="loginForm" novalidate="novalidate">
                         <button type="submit" class="fv-hidden-submit"
@@ -75,7 +75,7 @@
                         <div class="col-sm-5">
                             <button id="register_button" type="button"
                                     class="btn btn-outline btn-success btn-block margin-top-10">
-                                教师登陆
+                                学生登录
                             </button>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
         <div id="register" class="page-login-main animation-fade" style="display: none">
             <div class="vertical-align">
                 <div class="vertical-align-middle">
-                    <h2 class="hidden-xs" style="font-size: 24px;">教师登录</h2>
+                    <h2 class="hidden-xs" style="font-size: 24px;">学生登录</h2>
                     <p class="hidden-xs">Eurasia Decision Support System</p>
                     <div class="login-form fv-form fv-form-bootstrap" id="registers" novalidate="novalidate">
                         <button type="submit" class="fv-hidden-submit"
@@ -140,7 +140,7 @@
 <script>
 </script>
 <script>
-    //学生登录
+    //教师登录
     function studentLogin() {
         var user_username = $("#user_username").val();
         var user_password = $("#user_password").val();
@@ -161,7 +161,7 @@
         });
     }
 
-    //老师登陆
+    //学生登录
     function teacherLogin(){
         var user_username = $("#username").val();
         var user_password = $("#password").val();
@@ -171,7 +171,7 @@
             data: {uname: user_username, upwd: user_password,utype:1},
             success: function (data) {
                 if (data.success) {
-                    location.href = "/index";
+                    location.href = "/admin/exam.jsp";
                 } else {
                     layui.use('layer', function () {
                         var layer = layui.layer;

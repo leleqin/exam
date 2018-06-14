@@ -67,10 +67,16 @@ public class ImplTestService implements TestService {
 
     /**
      * 编辑题目
-     * @param id
+     * @param test
      */
     @Override
-    public void updateTest(int id) {
-        testDao.updateTest(id);
+    public void updateTest(Test test) {
+        testDao.updateTest(test);
+    }
+
+    @Override
+    public List<Test> editTest(Integer id) {
+        return testDao.editTest(id);
+
     }
 }

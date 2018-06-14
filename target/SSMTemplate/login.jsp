@@ -171,7 +171,7 @@
             data: {uname: user_username, upwd: user_password,utype:1},
             success: function (data) {
                 if (data.success) {
-                    location.href = "/admin/exam.jsp";
+                    location.href = "examine/exam.html";
                 } else {
                     layui.use('layer', function () {
                         var layer = layui.layer;

@@ -17,18 +17,6 @@
     <div class="layui-header">
         <div class="layui-logo">KIT ADMIN</div>
         <div class="layui-logo kit-logo-mobile">K</div>
-        <ul class="layui-nav layui-layout-left kit-nav">
-            <li class="layui-nav-item"><a href="javascript:;">控制台</a></li>
-            <li class="layui-nav-item"><a href="javascript:;">商品管理</a></li>
-            <li class="layui-nav-item">
-                <a href="javascript:;">其它系统</a>
-                <dl class="layui-nav-child">
-                    <dd><a href="javascript:;">邮件管理</a></dd>
-                    <dd><a href="javascript:;">消息管理</a></dd>
-                    <dd><a href="javascript:;">授权管理</a></dd>
-                </dl>
-            </li>
-        </ul>
         <ul class="layui-nav layui-layout-right kit-nav">
             <li class="layui-nav-item">
                 <a href="javascript:;">
@@ -70,25 +58,43 @@
             <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
             <ul class="layui-nav layui-nav-tree" lay-filter="kitNavbar" kit-navbar>
                 <li class="layui-nav-item layui-nav-itemed">
-                    <a class="" href="javascript:;"><i class="fa fa-plug" aria-hidden="true"></i><span> 基本元素</span></a>
+                    <a class="" href="javascript:;"><i class="fa fa-plug" aria-hidden="true"></i><span> 课程管理</span></a>
                     <dl class="layui-nav-child">
                         <dd>
                             <a href="javascript:;" kit-target
-                               data-options="{url:'/admin/test.jsp',icon:'&#xe63c;',title:'表格',id:'1'}">
-                                <i class="layui-icon">&#xe63c;</i><span> 题库</span></a>
+                               data-options="{url:'/admin/scoreAnalysis.jsp',icon:'&#xe63c;',title:'课程答题分析',id:'1'}">
+                                <i class="layui-icon">&#xe63c;</i><span> 课程答题分析</span></a>
                         </dd>
                         <dd>
-                            <a href="javascript:;" data-url="/admin/addTest.jsp" data-icon="&#xe62a;" data-title="表单" kit-target data-id='2'>
-                                <i class="layui-icon">&#xe62a;</i><span> 表单</span></a>
+                            <a href="javascript:;" data-url="/admin/addTest.jsp" data-icon="&#xe62a;" data-title="增加题库" kit-target data-id='2'>
+                                <i class="layui-icon">&#xe62a;</i><span> 增加题库</span></a>
                         </dd>
                     </dl>
                 </li>
+
                 <li class="layui-nav-item">
-                    <a href="javascript:;"><i class="layui-icon">&#xe6c6; </i><span>解决方案</span></a>
+                    <a href="javascript:;"><i class="layui-icon">&#xe6c6; </i><span>Java</span></a>
                     <dl class="layui-nav-child">
                         <dd><a href="javascript:;" kit-target
-                               data-options="{url:'/admin/userInfo.jsp',icon:'&#xe6c6;',title:'表格',id:'1'}">
-                            <i class="layui-icon">&#xe6c6;</i><span> 表格</span></a></dd>
+                               data-options="{url:'/admin/test.jsp',icon:'&#xe6c6;',title:'表格',id:'3'}">
+                            <i class="layui-icon">&#xe6c6;</i><span> Java试题库</span></a></dd>
+                        <dd>
+                            <a href="javascript:;" data-url="/admin/score.jsp" data-icon="&#xe62a;" data-title="学生成绩" kit-target data-id='4'>
+                                <i class="layui-icon">&#xe62a;</i><span> 学生成绩</span></a>
+                        </dd>
+                    </dl>
+                </li>
+
+                <li class="layui-nav-item">
+                    <a href="javascript:;"><i class="layui-icon">&#xe6c6; </i><span>C语言</span></a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="javascript:;" kit-target
+                               data-options="{url:'/admin/test.jsp',icon:'&#xe6c6;',title:'C语言试题库',id:'5'}">
+                            <i class="layui-icon">&#xe6c6;</i><span> C语言试题库</span></a></dd>
+                        <dd>
+                            <a href="javascript:;" data-url="/admin/addTest.jsp" data-icon="&#xe62a;" data-title="学生成绩" kit-target data-id='6'>
+                                <i class="layui-icon">&#xe62a;</i><span> 学生成绩</span></a>
+                        </dd>
                     </dl>
                 </li>
             </ul>

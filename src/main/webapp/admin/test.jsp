@@ -74,7 +74,7 @@
                                     <td>` + data[i]['tc'] + `</td>
                                     <td>` + data[i]['td'] + `</td>
                                     <td>` + data[i]['answder'] + `</td>
-                                    <td><button class="layui-btn layui-btn-sm layui-icon" onclick="editTest(` + data[i]['tid'] + `)">&#xe642;编辑</button>
+                                    <td><button class="layui-btn layui-btn-sm layui-icon" onclick="editTest(` + data[i]['tid'] + `)">&#xe642;编辑</button><br>
                                         <button class="layui-btn layui-btn-sm layui-btn-danger layui-icon" onclick="deleteTest(` + data[i]['tid'] + `)">&#xe640;删除</button></td>
                                 </tr>`);
                                 }
@@ -86,11 +86,15 @@
         })
 
         /*监听保存按钮*/
-        form.on('submit(updateTest)',function () {
-/*            $.ajax({
+        form.on('submit(keepTest)',function () {
+            $.ajax({
                 type:'post',
-                url:'/select/update'
-            })*/
+                url:'/select/updateTest',
+                data:{tid:$("#tid").val(),tname:$("#testName").val(),ta:$("#chooseA").val(),tb:$("#chooseB").val(),tc:$("#chooseC").val(),td:$("#chooseD").val(),answder:$("#chooseAnswer").val()},
+            })
+            layer.msg('修改成功', {icon: 6, time: 500}, function () {
+                location.reload();
+            });
         })
 
 
@@ -102,15 +106,22 @@
             url:'/select/editTest',
             data:{tid:tid},
             success:function (data) {
-                
+                $("#tid").val(data[0]['tid']);
+                $("#testName").val(data[0]['tname']);
+                $("#chooseA").val(data[0]['ta']);
+                $("#chooseB").val(data[0]['tb']);
+                $("#chooseC").val(data[0]['tc']);
+                $("#chooseD").val(data[0]['td']);
+                $("#chooseAnswer").val(data[0]['answder']);
+                layer.open({
+                    type:1,
+                    title:'修改信息',
+                    area:['700px','500px'],
+                    skin:'layui-layer-rim',
+                    offset: '15px',
+                    content:$('#updateTest')
+                })
             }
-        })
-        layer.open({
-            type:1,
-            title:'修改信息',
-            area:['700px','500px'],
-            skin:'layui-layer-rim',
-            content:$('#updateTest')
         })
     }
 
@@ -135,52 +146,52 @@
     <form class="layui-form" action="">
         <div class="layui-form-item">
             <br><br>
+            <input type="hidden" id="tid">
             <div class="layui-form-item layui-form-text">
                 <label class="layui-form-label">请输入题目</label>
                 <div class="layui-input-block">
-                    <textarea placeholder="请输入题目" class="layui-textarea"></textarea>
+                    <textarea placeholder="请输入题目" class="layui-textarea" id="testName"></textarea>
                 </div>
             </div>
             <div class="layui-form-item">
                 <label class="layui-form-label">A选项</label>
                 <div class="layui-input-block">
-                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入A选项" class="layui-input">
+                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入A选项" class="layui-input" id="chooseA">
                 </div>
             </div>
             <div class="layui-form-item">
                 <label class="layui-form-label">B选项</label>
                 <div class="layui-input-block">
-                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入B选项" class="layui-input">
+                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入B选项" class="layui-input" id="chooseB">
                 </div>
             </div>
             <div class="layui-form-item">
                 <label class="layui-form-label">C选项</label>
                 <div class="layui-input-block">
-                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入C选项" class="layui-input">
+                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入C选项" class="layui-input" id="chooseC">
                 </div>
             </div>
             <div class="layui-form-item">
                 <label class="layui-form-label">D选项</label>
                 <div class="layui-input-block">
-                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入D选项" class="layui-input">
+                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入D选项" class="layui-input" id="chooseD">
                 </div>
             </div>
             <div class="layui-form-item">
                 <label class="layui-form-label">答案</label>
                 <div class="layui-input-block">
-                    <select>
+                    <select id="chooseAnswer">
                         <option value=""></option>
-                        <option value="0">写作</option>
-                        <option value="1">阅读</option>
-                        <option value="2">游戏</option>
-                        <option value="3">音乐</option>
-                        <option value="4">旅行</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
                     </select>
                 </div>
             </div>
             <div class="layui-form-item">
                 <div class="layui-input-block">
-                    <button class="layui-btn" lay-submit="" lay-filter="updateTest">保存</button>
+                    <button class="layui-btn" lay-submit="" lay-filter="keepTest">保存</button>
                 </div>
             </div>
         </div>

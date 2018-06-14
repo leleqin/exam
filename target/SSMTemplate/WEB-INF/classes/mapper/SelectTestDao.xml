@@ -23,4 +23,11 @@
         select * from test limit #{currentIndex},#{limitIndex};
     </select>
 
+    <select id="editTest" parameterType="Integer" resultType="edu.eurasia.entity.Test">
+        select * from test where tid = #{id}
+    </select>
+
+    <update id="updateTest" parameterType="edu.eurasia.entity.Test">
+        update test set tname = #{tname},ta = #{ta},tb = #{tb},tc = #{tc},td = #{td},answder = #{answder} where tid = #{tid}
+    </update>
 </mapper>

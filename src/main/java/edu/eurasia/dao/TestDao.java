@@ -40,7 +40,13 @@ public interface TestDao {
 
     /**
      * 编辑题目
+     * @param test
+     */
+    void updateTest(Test test);
+
+    /**
+     *
      * @param id
      */
-    void updateTest(int id);
+    List<Test> editTest(Integer id);
 }

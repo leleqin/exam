@@ -40,7 +40,13 @@ public interface TestService {
 
     /**
      * 编辑题目
+     * @param test
+     */
+    void updateTest(Test test);
+
+    /**
+     * 查询要编辑的题目
      * @param id
      */
-    void updateTest(int id);
+    List<Test> editTest(Integer id);
 }

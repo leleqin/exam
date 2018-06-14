@@ -3,9 +3,11 @@ package edu.eurasia.controller;
 import edu.eurasia.entity.Test;
 import edu.eurasia.service.TestService;
 import edu.eurasia.untils.PageUtils;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
@@ -78,7 +80,18 @@ public class TestController {
      */
     @RequestMapping("/editTest")
     @ResponseBody
-    public void editTest(int id){
+    public List<Test> editTest(@RequestParam(value = "tid")Integer id){
+        List<Test> testList = testService.editTest(id);
+        return testList;
+    }
 
+    /**
+     * 保存更改的题目
+     * @param test
+     */
+    @RequestMapping("/updateTest")
+    @ResponseBody
+    public void updateTest(Test test){
+        testService.updateTest(test);
     }
 }

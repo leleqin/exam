@@ -49,4 +49,14 @@ public interface TestService {
      * @param id
      */
     List<Test> editTest(Integer id);
+
+    /**
+     * 随机出题
+     * @return
+     */
+    List<Test> randomTest();
+
+    List<Test> randomTestC();
+
+    List<Test> randomTestData();
 }

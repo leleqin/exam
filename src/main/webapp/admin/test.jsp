@@ -112,7 +112,13 @@
                 $("#chooseB").val(data[0]['tb']);
                 $("#chooseC").val(data[0]['tc']);
                 $("#chooseD").val(data[0]['td']);
-                $("#chooseAnswer").val(data[0]['answder']);
+                $("#chooseAnswer").find('option').each(function (index,element) {
+                    if (element.value === "B"){
+                        console.log(element);
+                    }
+                });
+                $("#chooseAnswer").find('option').get(0).text =  "a";
+
                 layer.open({
                     type:1,
                     title:'修改信息',
@@ -181,7 +187,7 @@
                 <label class="layui-form-label">答案</label>
                 <div class="layui-input-block">
                     <select id="chooseAnswer">
-                        <option value=""></option>
+                        <option value="" selected></option>
                         <option value="A">A</option>
                         <option value="B">B</option>
                         <option value="C">C</option>

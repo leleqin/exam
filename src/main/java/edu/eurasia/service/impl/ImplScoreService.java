@@ -22,4 +22,9 @@ public class ImplScoreService implements ScoreService {
     public Integer scoreCount() {
         return scoreDao.scoreCount();
     }
+
+    @Override
+    public void updateScore(Grade grade) {
+        scoreDao.updateScore(grade);
+    }
 }

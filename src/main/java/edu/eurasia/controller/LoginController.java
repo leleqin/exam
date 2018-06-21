@@ -34,7 +34,8 @@ public class LoginController {
         Map<String, Object> result = new HashMap<String, Object>();
         Users userInfo = loginService.studentLogin(users);
         if (userInfo != null ){
-            session.setAttribute("userInfo", userInfo);
+            String name = userInfo.getUname();
+            session.setAttribute("userInfo", name);
             result.put("success",true);
         }else{
             result.put("success",false);
@@ -55,7 +56,9 @@ public class LoginController {
         Map<String, Object> result = new HashMap<String, Object>();
         Users userInfo = loginService.teacherLogin(users);
         if (userInfo != null ){
-            session.setAttribute("userInfo", userInfo);
+            String name = userInfo.getUname();
+            System.out.println(name);
+            session.setAttribute("userInfo", name);
             result.put("success",true);
         }else{
             result.put("success",false);

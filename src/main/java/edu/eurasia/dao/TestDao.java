@@ -49,4 +49,10 @@ public interface TestDao {
      * @param id
      */
     List<Test> editTest(Integer id);
+
+    List<Test> randomTest();
+
+    List<Test> randomTestC();
+
+    List<Test> randomTestData();
 }

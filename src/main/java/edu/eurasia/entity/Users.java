@@ -54,5 +54,15 @@ public class Users {
         this.utype = utype;
     }
 
-
+    @Override
+    public String toString() {
+        return "Users{" +
+                "uid=" + uid +
+                ", uname='" + uname + '\'' +
+                ", upwd='" + upwd + '\'' +
+                ", usex='" + usex + '\'' +
+                ", unum='" + unum + '\'' +
+                ", utype=" + utype +
+                '}';
+    }
 }

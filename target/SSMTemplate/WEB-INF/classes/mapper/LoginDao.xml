@@ -4,10 +4,10 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="edu.eurasia.dao.LoginDao">
     <select id="studentLogin" parameterType="edu.eurasia.entity.Users" resultType="edu.eurasia.entity.Users" >
-        select * from users where uname=#{uname} and upwd =#{upwd} and utype = #{utype}
+        select * from users where unum=#{unum} and upwd =#{upwd} and utype = #{utype}
     </select>
 
     <select id="teacherLogin" parameterType="edu.eurasia.entity.Users" resultType="edu.eurasia.entity.Users" >
-        select * from users where uname=#{uname} and upwd =#{upwd} and utype = #{utype}
+        select * from users where unum=#{unum} and upwd =#{upwd} and utype = #{utype}
     </select>
 </mapper>

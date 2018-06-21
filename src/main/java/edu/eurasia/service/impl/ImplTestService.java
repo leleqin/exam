@@ -77,6 +77,22 @@ public class ImplTestService implements TestService {
     @Override
     public List<Test> editTest(Integer id) {
         return testDao.editTest(id);
-
     }
+
+    @Override
+    public List<Test> randomTest() {
+        return testDao.randomTest();
+    }
+
+    @Override
+    public List<Test> randomTestC() {
+        return testDao.randomTestC();
+    }
+
+    @Override
+    public List<Test> randomTestData() {
+        return testDao.randomTestData();
+    }
+
+
 }

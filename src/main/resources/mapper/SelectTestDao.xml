@@ -16,11 +16,11 @@
     </insert>
 
     <select id="testCount" resultType="Integer">
-        select COUNT(*) from test
+        select COUNT(*) from test where cid = 1;
     </select>
 
     <select id="singlePageTest" parameterType="edu.eurasia.untils.PageUtils" resultType="edu.eurasia.entity.Test">
-        select * from test limit #{currentIndex},#{limitIndex};
+        select * from test where cid = 1 limit #{currentIndex},#{limitIndex};
     </select>
 
     <select id="editTest" parameterType="Integer" resultType="edu.eurasia.entity.Test">
@@ -30,4 +30,17 @@
     <update id="updateTest" parameterType="edu.eurasia.entity.Test">
         update test set tname = #{tname},ta = #{ta},tb = #{tb},tc = #{tc},td = #{td},answder = #{answder} where tid = #{tid}
     </update>
+
+    <select id="randomTest" resultType="edu.eurasia.entity.Test">
+        SELECT * from test where cid = 1 ORDER BY RAND() LIMIT 10;
+    </select>
+
+    <select id="randomTestC" resultType="edu.eurasia.entity.Test">
+        SELECT * from test where cid = 2 ORDER BY RAND() LIMIT 10;
+    </select>
+
+    <select id="randomTestData" resultType="edu.eurasia.entity.Test">
+        SELECT * from test where cid = 3 ORDER BY RAND() LIMIT 10;
+    </select>
+
 </mapper>

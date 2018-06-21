@@ -9,4 +9,6 @@ public interface ScoreDao {
     List<Grade> allScore();
 
     Integer scoreCount();
+
+    void updateScore(Grade grade);
 }

@@ -10,4 +10,8 @@
     <select id="scoreCount" resultType="Integer">
         SELECT COUNT(*) FROM users u,grade g WHERE u.uid = g.uid AND g.cid = 1;
     </select>
+
+    <update id="updateScore" parameterType="edu.eurasia.entity.Grade">
+        UPDATE grade set score = #{score} where uid = 1 and cid = #{cid};
+    </update>
 </mapper>

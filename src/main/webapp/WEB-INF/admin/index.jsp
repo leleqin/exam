@@ -1,11 +1,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@page isELIgnored="false" %>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>KIT ADMIN</title>
+    <title>课程管理</title>
     <link rel="stylesheet" href="../../plugins/layui/css/layui.css" media="all"/>
     <link rel="stylesheet" href="../../plugins/font-awesome/css/font-awesome.min.css" media="all"/>
     <link rel="stylesheet" href="../../src/css/app.css" media="all"/>
@@ -15,7 +14,7 @@
 <body class="kit-theme">
 <div class="layui-layout layui-layout-admin kit-layout-admin">
     <div class="layui-header">
-        <div class="layui-logo">KIT ADMIN</div>
+        <div class="layui-logo">课程管理</div>
         <div class="layui-logo kit-logo-mobile">K</div>
         <ul class="layui-nav layui-layout-right kit-nav">
             <li class="layui-nav-item">
@@ -39,7 +38,7 @@
             </li>
             <li class="layui-nav-item">
                 <a href="javascript:;">
-                    <img src="http://m.zhengjinfan.cn/images/0.jpg" class="layui-nav-img"> Van
+                    <img src="http://m.zhengjinfan.cn/images/0.jpg" class="layui-nav-img"> ${userInfo}
                 </a>
                 <dl class="layui-nav-child">
                     <dd><a href="javascript:;" kit-target
@@ -62,7 +61,7 @@
                     <dl class="layui-nav-child">
                         <dd>
                             <a href="javascript:;" kit-target
-                               data-options="{url:'/admin/scoreAnalysis.jsp',icon:'&#xe63c;',title:'课程答题分析',id:'1'}">
+                               data-options="{url:'/admin/scoreAnalysis.html',icon:'&#xe63c;',title:'课程答题分析',id:'1'}">
                                 <i class="layui-icon">&#xe63c;</i><span> 课程答题分析</span></a>
                         </dd>
                         <dd>
@@ -76,7 +75,7 @@
                     <a href="javascript:;"><i class="layui-icon">&#xe6c6; </i><span>Java</span></a>
                     <dl class="layui-nav-child">
                         <dd><a href="javascript:;" kit-target
-                               data-options="{url:'/admin/test.jsp',icon:'&#xe6c6;',title:'表格',id:'3'}">
+                               data-options="{url:'/admin/test.jsp',icon:'&#xe6c6;',title:'Java试题库',id:'3'}">
                             <i class="layui-icon">&#xe6c6;</i><span> Java试题库</span></a></dd>
                         <dd>
                             <a href="javascript:;" data-url="/admin/score.jsp" data-icon="&#xe62a;" data-title="学生成绩" kit-target data-id='4'>
@@ -92,11 +91,12 @@
                                data-options="{url:'/admin/test.jsp',icon:'&#xe6c6;',title:'C语言试题库',id:'5'}">
                             <i class="layui-icon">&#xe6c6;</i><span> C语言试题库</span></a></dd>
                         <dd>
-                            <a href="javascript:;" data-url="/admin/addTest.jsp" data-icon="&#xe62a;" data-title="学生成绩" kit-target data-id='6'>
+                            <a href="javascript:;" data-url="/admin/score.jsp" data-icon="&#xe62a;" data-title="学生成绩" kit-target data-id='6'>
                                 <i class="layui-icon">&#xe62a;</i><span> 学生成绩</span></a>
                         </dd>
                     </dl>
                 </li>
+
             </ul>
         </div>
     </div>
@@ -109,8 +109,7 @@
 
     <div class="layui-footer">
         <!-- 底部固定区域 -->
-        2017 &copy;
-        <a href="http://kit.zhengjinfan.cn/">kit.zhengjinfan.cn/</a> MIT license
+        2018 &copy;
     </div>
 </div>
 <script src="../../plugins/layui/layui.js"></script>

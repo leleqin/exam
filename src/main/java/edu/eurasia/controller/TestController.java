@@ -94,4 +94,30 @@ public class TestController {
     public void updateTest(Test test){
         testService.updateTest(test);
     }
+
+    /**
+     * 随机出题
+     * @param test
+     * @return
+     */
+    @RequestMapping("/randomTest")
+    @ResponseBody
+    public List<Test> randomTest(Test test){
+        List<Test> testList = testService.randomTest();
+        return testList;
+    }
+
+    @RequestMapping("/randomTestC")
+    @ResponseBody
+    public List<Test> randomTestC(Test test){
+        List<Test> testList = testService.randomTestC();
+        return testList;
+    }
+
+    @RequestMapping("/randomTestData")
+    @ResponseBody
+    public List<Test> randomTestData(Test test){
+        List<Test> testList = testService.randomTestData();
+        return testList;
+    }
 }

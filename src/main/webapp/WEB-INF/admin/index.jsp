@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../../plugins/font-awesome/css/font-awesome.min.css" media="all"/>
     <link rel="stylesheet" href="../../src/css/app.css" media="all"/>
     <link rel="stylesheet" href="../../src/css/themes/default.css" media="all" id="skin" kit-skin/>
+    <script type="text/javascript" src="../../login/public/js/jquery.js"></script>
 </head>
 
 <body class="kit-theme">
@@ -46,7 +47,7 @@
                     </dd>
                 </dl>
             </li>
-            <li class="layui-nav-item"><a href="../../login.jsp"><i class="fa fa-sign-out" aria-hidden="true"></i>
+            <li class="layui-nav-item"><a onclick="exit()"><i class="fa fa-sign-out" aria-hidden="true"></i>
                 注销</a></li>
         </ul>
     </div>
@@ -61,8 +62,8 @@
                     <dl class="layui-nav-child">
                         <dd>
                             <a href="javascript:;" kit-target
-                               data-options="{url:'/admin/scoreAnalysis.html',icon:'&#xe63c;',title:'课程答题分析',id:'1'}">
-                                <i class="layui-icon">&#xe63c;</i><span> 课程答题分析</span></a>
+                               data-options="{url:'/admin/scoreAnalysis.html',icon:'&#xe629;',title:'课程答题分析',id:'1'}">
+                                <i class="layui-icon">&#xe629;</i><span> 课程答题分析</span></a>
                         </dd>
                         <dd>
                             <a href="javascript:;" data-url="/admin/addTest.jsp" data-icon="&#xe62a;" data-title="增加题库" kit-target data-id='2'>
@@ -72,14 +73,14 @@
                 </li>
 
                 <li class="layui-nav-item">
-                    <a href="javascript:;"><i class="layui-icon">&#xe6c6; </i><span>Java</span></a>
+                    <a href="javascript:;"><i class="layui-icon">&#xe635;</i><span>Java</span></a>
                     <dl class="layui-nav-child">
                         <dd><a href="javascript:;" kit-target
-                               data-options="{url:'/admin/test.jsp',icon:'&#xe6c6;',title:'Java试题库',id:'3'}">
-                            <i class="layui-icon">&#xe6c6;</i><span> Java试题库</span></a></dd>
+                               data-options="{url:'/admin/test.jsp',icon:'&#xe655;',title:'Java试题库',id:'3'}">
+                            <i class="layui-icon">&#xe655;</i><span> Java试题库</span></a></dd>
                         <dd>
-                            <a href="javascript:;" data-url="/admin/score.jsp" data-icon="&#xe62a;" data-title="学生成绩" kit-target data-id='4'>
-                                <i class="layui-icon">&#xe62a;</i><span> 学生成绩</span></a>
+                            <a href="javascript:;" data-url="/admin/score.jsp" data-icon="&#xe6b2;" data-title="学生成绩" kit-target data-id='4'>
+                                <i class="layui-icon">&#xe6b2;</i><span> 学生成绩</span></a>
                         </dd>
                     </dl>
                 </li>
@@ -88,11 +89,11 @@
                     <a href="javascript:;"><i class="layui-icon">&#xe6c6; </i><span>C语言</span></a>
                     <dl class="layui-nav-child">
                         <dd><a href="javascript:;" kit-target
-                               data-options="{url:'/admin/test.jsp',icon:'&#xe6c6;',title:'C语言试题库',id:'5'}">
-                            <i class="layui-icon">&#xe6c6;</i><span> C语言试题库</span></a></dd>
+                               data-options="{url:'/admin/testC.jsp',icon:'&#xe655;',title:'C语言试题库',id:'5'}">
+                            <i class="layui-icon">&#xe655;</i><span> C语言试题库</span></a></dd>
                         <dd>
-                            <a href="javascript:;" data-url="/admin/score.jsp" data-icon="&#xe62a;" data-title="学生成绩" kit-target data-id='6'>
-                                <i class="layui-icon">&#xe62a;</i><span> 学生成绩</span></a>
+                            <a href="javascript:;" data-url="/admin/score.jsp" data-icon="&#xe6b2;" data-title="学生成绩" kit-target data-id='6'>
+                                <i class="layui-icon">&#xe6b2;</i><span> 学生成绩</span></a>
                         </dd>
                     </dl>
                 </li>
@@ -114,6 +115,18 @@
 </div>
 <script src="../../plugins/layui/layui.js"></script>
 <script>
+    function exit() {
+        $.ajax({
+            type:'post',
+            url:'/exit',
+            success:function (data) {
+                if (data === "ok") {
+                    location.href = "login.jsp";
+                }
+            }
+        })
+    }
+
     var message;
     layui.config({
         base: 'src/js/',

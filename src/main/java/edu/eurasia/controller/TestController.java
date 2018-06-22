@@ -75,6 +75,31 @@ public class TestController {
     }
 
     /**
+     * 查询C语言题库数量
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping("/testCountC")
+    @ResponseBody
+    public Integer testCountC() throws Exception{
+        int contNumC = testService.testCountC();
+        return contNumC;
+    }
+
+    /**
+     * 查询C单页显示的数据
+     * @param pageUtils
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping("/singlePageTestC")
+    @ResponseBody
+    public  List<Test> singlePageTestC(PageUtils pageUtils) throws  Exception{
+        List<Test> testList = testService.singlePageTestC(pageUtils);
+        return testList;
+    }
+
+    /**
      * 找出要编辑题库
      * @param id
      */

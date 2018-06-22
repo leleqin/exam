@@ -66,4 +66,14 @@ public class LoginController {
         return result;
     }
 
+    @RequestMapping("/exit")
+    @ResponseBody
+    public String exit(HttpSession session){
+        if (session != null){
+            session.removeAttribute("userInfo");
+        return "ok";
+        }
+        return null;
+    }
+
 }

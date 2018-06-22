@@ -7,135 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fba8ceae-5d3c-4d36-9e53-3fa4a79cef7d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eurasia/controller/FeedbackController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eurasia/dao/FeedbackDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eurasia/entity/Feedback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eurasia/service/FeedbackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eurasia/service/impl/ImplFeedbackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/Feedback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/testC.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eurasia/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eurasia/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eurasia/controller/ScoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eurasia/controller/ScoreController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eurasia/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eurasia/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eurasia/dao/ScoreDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eurasia/dao/ScoreDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eurasia/dao/TestDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eurasia/dao/TestDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eurasia/entity/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eurasia/entity/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eurasia/service/ScoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eurasia/service/ScoreService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eurasia/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eurasia/service/TestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eurasia/service/impl/ImplScoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eurasia/service/impl/ImplScoreService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eurasia/service/impl/ImplTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eurasia/service/impl/ImplTestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AllScore.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AllScore.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/LoginDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/LoginDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SelectTestDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SelectTestDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/addTest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/addTest.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/exam.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/exam.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/scoreAnalysis.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/scoreAnalysis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/css/nivo_lightbox_themes/default/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/css/nivo_lightbox_themes/default/close@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/css/nivo_lightbox_themes/default/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/css/nivo_lightbox_themes/default/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/css/nivo_lightbox_themes/default/loading@2x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/css/nivo_lightbox_themes/default/next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/css/nivo_lightbox_themes/default/next@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/css/nivo_lightbox_themes/default/prev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/css/nivo_lightbox_themes/default/prev@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/exam.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/fonts/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/fonts/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/fonts/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/fonts/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/fonts/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/fonts/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/fonts/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/fonts/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/fonts/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/fonts/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/fonts/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/fonts/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/fonts/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/examine/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/scoreAnalysis.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/scoreAnalysis.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login/public/button.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login/public/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login/public/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login/public/paging.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login/public/table.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login/public/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login/public/weiwancheng.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/plugins/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/plugins/layui/css/layui.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/admin/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/controller/ScoreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/controller/ScoreController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/dao/ScoreDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/dao/ScoreDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/dao/TestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/dao/TestDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/entity/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/entity/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/service/ScoreService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/service/ScoreService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/service/TestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/service/TestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/service/impl/ImplScoreService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/service/impl/ImplScoreService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/service/impl/ImplTestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/edu/eurasia/service/impl/ImplTestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/mapper/AllScore.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/mapper/AllScore.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/mapper/LoginDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/mapper/LoginDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/mapper/SelectTestDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/WEB-INF/classes/mapper/SelectTestDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SSMTemplate/admin/addTest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/admin/addTest.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SSMTemplate/admin/exam.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/admin/exam.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/admin/scoreAnalysis.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/admin/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/admin/test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/css/nivo_lightbox_themes/default/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/css/nivo_lightbox_themes/default/close@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/css/nivo_lightbox_themes/default/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/css/nivo_lightbox_themes/default/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/css/nivo_lightbox_themes/default/loading@2x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/css/nivo_lightbox_themes/default/next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/css/nivo_lightbox_themes/default/next@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/css/nivo_lightbox_themes/default/prev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/css/nivo_lightbox_themes/default/prev@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/exam.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/fonts/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/fonts/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/fonts/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/fonts/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/fonts/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/fonts/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/fonts/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/fonts/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/fonts/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/fonts/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/fonts/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/fonts/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/fonts/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/examine/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/login/public/button.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/login/public/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/login/public/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/login/public/paging.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/login/public/table.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/login/public/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/login/public/weiwancheng.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SSMTemplate/plugins/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/SSMTemplate/plugins/layui/css/layui.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/eurasia/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eurasia/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eurasia/controller/ScoreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eurasia/controller/ScoreController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/eurasia/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eurasia/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eurasia/dao/ScoreDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eurasia/dao/ScoreDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/eurasia/dao/TestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eurasia/dao/TestDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eurasia/entity/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eurasia/entity/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eurasia/service/ScoreService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eurasia/service/ScoreService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/eurasia/service/TestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eurasia/service/TestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eurasia/service/impl/ImplScoreService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eurasia/service/impl/ImplScoreService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/eurasia/service/impl/ImplTestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eurasia/service/impl/ImplTestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AllScore.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/AllScore.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/LoginDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/LoginDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mapper/SelectTestDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/SelectTestDao.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -185,12 +83,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/main.html">
+    <leaf>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="126" column="25" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
+            <state relative-caret-position="90">
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -226,7 +124,7 @@
       <find>小贝壳</find>
       <find>小贝壳网站模板</find>
       <find>input[type=&quot;text&quot;]</find>
-      <find />
+      <find>p a</find>
       <find>submit</find>
       <find>注销</find>
       <find>${</find>
@@ -243,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/userInfo.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/plugins/font-awesome/css/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/userInfo.jsp" />
@@ -252,7 +149,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/admin/form.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eurasia/service/LoginService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/TestDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eurasia/entity/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eurasia/service/impl/ImplLoginService.java" />
@@ -265,14 +161,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/admin/exam1.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/plugins/layui/css/xadmin.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/plugins/layui/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/eurasia/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/eurasia/service/TestService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/eurasia/service/impl/ImplTestService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/eurasia/dao/TestDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/plugins/layui/css/layui.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/addTest.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/scoreAnalysis.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/scoreAnalysis.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/test.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eurasia/entity/Users.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eurasia/service/ScoreService.java" />
@@ -288,12 +178,20 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapper/Feedback.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/exam.html" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/LoginDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/eurasia/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/exam.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/SelectTestDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/main.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/exam.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/eurasia/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/addTest.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/testC.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/eurasia/service/TestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/eurasia/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/eurasia/service/impl/ImplTestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/eurasia/dao/TestDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/SelectTestDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/scoreAnalysis.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/index.jsp" />
       </list>
     </option>
   </component>
@@ -331,7 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -349,6 +246,28 @@
               <item name="SSMTemplate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSMTemplate" type="b2602c69:ProjectViewProjectNode" />
@@ -387,6 +306,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -407,19 +327,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\workspace\SSMTemplate\src\main\resources\mapper" />
-      <recent name="E:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\workspace\SSMTemplate\src\main\webapp\admin" />
-      <recent name="E:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\workspace\SSMTemplate\src\main\webapp\examine\img" />
-      <recent name="E:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\workspace\SSMTemplate\src\main\webapp\examine" />
-      <recent name="E:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\workspace\SSMTemplate\src\main\webapp\views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\workspace\SSMTemplate\src\main\webapp\plugins\layui\images" />
       <recent name="E:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\workspace\SSMTemplate\src\main\webapp\plugins\layui\js" />
       <recent name="E:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\workspace\SSMTemplate\src\main\webapp\plugins\layui\css" />
       <recent name="E:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\workspace\SSMTemplate\src\main\webapp\admin" />
       <recent name="E:\IdeaProjects\SSMTemplate\src\main\webapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\workspace\SSMTemplate\src\main\webapp\admin" />
+      <recent name="E:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\workspace\SSMTemplate\src\main\resources\mapper" />
+      <recent name="E:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\workspace\SSMTemplate\src\main\webapp\examine\img" />
+      <recent name="E:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\workspace\SSMTemplate\src\main\webapp\examine" />
+      <recent name="E:\Program Files\JetBrains\IntelliJ IDEA 2018.1.4\workspace\SSMTemplate\src\main\webapp\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -623,12 +543,13 @@
       <workItem from="1528976754304" duration="5091000" />
       <workItem from="1529022051789" duration="28536000" />
       <workItem from="1529305170299" duration="22084000" />
-      <workItem from="1529456103413" duration="22055000" />
+      <workItem from="1529456103413" duration="27683000" />
+      <workItem from="1529629587782" duration="6499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279842000" />
+    <option name="totallyTimeSpent" value="291969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -658,32 +579,32 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.63140494" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32561985" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6528926" visible="true" weight="0.21558245" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6528926" visible="true" weight="0.24130106" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.32980332" />
       <window_info id="Web" order="7" sideWeight="0.34710744" side_tool="true" weight="0.22768533" />
       <window_info id="JRebel" order="3" sideWeight="0.5049505" side_tool="true" weight="0.22768533" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32396695" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32859176" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32396695" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32905984" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32859176" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="JRebel" order="3" sideWeight="0.5049505" side_tool="true" weight="0.22768533" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32859176" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.63140494" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
+      <window_info id="Web" order="7" sideWeight="0.34710744" side_tool="true" weight="0.22768533" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32561985" />
       <window_info id="Capture Tool" order="8" />
@@ -691,25 +612,25 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="17" side_tool="true" weight="0.3280255" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32396695" />
-      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32396695" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" weight="0.40495867" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6528926" visible="true" weight="0.21558245" />
       <window_info anchor="bottom" id="JRebel Console" order="16" sideWeight="0.50067025" side_tool="true" weight="0.43966943" />
       <window_info anchor="right" id="Database" order="5" weight="0.19591528" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="7" sideWeight="0.34710744" side_tool="true" weight="0.22768533" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.3966942" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32396695" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.32980332" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.3966942" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -729,11 +650,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/static/images/m42.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/static/images/weixin.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/plugins/layui/images/aiwrap.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/plugins/layui/images/face/38.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -751,23 +667,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eurasia/dao/TestDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/plugins/polyfill.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6660" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/addTest.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="11" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/plugins/layui/css/layui.css">
@@ -788,9 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#245#246#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -805,10 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,24 +714,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AllScore.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="14" column="73" lean-forward="true" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://a901326d-ffe2-4815-8537-124502ca3495/schema/exam/table/test">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eurasia/service/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="60" column="14" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -851,18 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eurasia/service/impl/ImplTestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -884,39 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eurasia/controller/ScoreController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -960,62 +796,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eurasia/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
-          <folding>
-            <element signature="e#921#937#0" expanded="true" />
-            <element signature="e#1534#1550#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/exam.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="117" column="22" lean-forward="true" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/scoreAnalysis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login/public/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1620" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login/public/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login/public/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login/public/main.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/components/table/table.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/components/table/table.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-569" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2139">
-          <caret line="285" column="52" lean-forward="true" selection-start-line="285" selection-start-column="52" selection-end-line="285" selection-end-column="52" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
@@ -1036,17 +824,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SelectTestDao.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="3870">
+          <caret line="129" column="41" selection-start-line="129" selection-start-column="41" selection-end-line="129" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="60" column="56" lean-forward="true" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eurasia/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+          <folding>
+            <element signature="e#921#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/addTest.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="112" column="35" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/eurasia/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+        <state relative-caret-position="285">
+          <caret line="90" column="23" lean-forward="true" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
           <folding>
             <element signature="e#1194#1195#0" expanded="true" />
             <element signature="e#1235#1236#0" expanded="true" />
@@ -1054,24 +873,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/test.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eurasia/service/impl/ImplTestService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="60" column="56" lean-forward="true" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
+        <state relative-caret-position="315">
+          <caret line="108" column="28" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
+          <folding>
+            <element signature="e#2030#2031#0" expanded="true" />
+            <element signature="e#2073#2074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eurasia/service/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="64" column="14" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SelectTestDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eurasia/dao/TestDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="60" column="14" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/testC.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AllScore.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="75" lean-forward="true" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eurasia/controller/ScoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/score.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="56" column="48" lean-forward="true" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2730">
+          <caret line="164" column="53" selection-start-line="164" selection-start-column="53" selection-end-line="164" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/exam.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5850">
+          <caret line="195" column="19" lean-forward="true" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/scoreAnalysis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="62" column="32" lean-forward="true" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="77" column="98" selection-start-line="77" selection-start-column="98" selection-end-line="77" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="126" column="25" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
+        <state relative-caret-position="90">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>

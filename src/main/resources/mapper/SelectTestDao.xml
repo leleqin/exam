@@ -43,4 +43,11 @@
         SELECT * from test where cid = 3 ORDER BY RAND() LIMIT 10;
     </select>
 
+    <select id="testCountC" resultType="Integer" parameterType="edu.eurasia.entity.Test">
+        select COUNT(*) from test where cid = 2;
+    </select>
+
+    <select id="singlePageTestC" parameterType="edu.eurasia.untils.PageUtils" resultType="edu.eurasia.entity.Test">
+        select * from test where cid = 2 limit #{currentIndex},#{limitIndex};
+    </select>
 </mapper>

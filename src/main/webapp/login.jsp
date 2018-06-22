@@ -4,7 +4,7 @@
 <html lang="zh-cn">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Eurasia DSS后台管理系统</title>
+    <title>Corpse DSS后台管理系统</title>
     <link rel="shortcut icon" href="login/public/images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="login/public/css/site.css" id="siteStyle">
     <link rel="stylesheet" href="login/public/css/login.css">
@@ -51,11 +51,11 @@
             <div class="page-brand vertical-align-middle">
                 <div class="brand">
                     <img class="brand-img" src="login/public/images/LOGO.png" height="50" alt="Eurasia DSS">
-                    <span class="logo">Eurasia</span>
+                    <span class="logo">Corpse</span>
                 </div>
-                <h3>Eurasia Decision Support System</h3>
+                <h3>Corpse Decision Support System</h3>
                 <ul class="list-icons">
-                    <li>Eurasia Decision Support System</li>
+                    <li>Corpse Decision Support System</li>
                 </ul>
                 <div>
                     <a href="#" target="_blank"  target="_blank" class="btn btn-primary btn-outline">
@@ -69,7 +69,7 @@
             <div class="vertical-align">
                 <div class="vertical-align-middle">
                     <h2 class="hidden-xs" style="font-size: 24px;">老师登录</h2>
-                    <p class="hidden-xs">Eurasia Decision Support System</p>
+                    <p class="hidden-xs">Corpse Decision Support System</p>
                     <div class="login-form fv-form fv-form-bootstrap" id="loginForm" novalidate="novalidate">
                         <button type="submit" class="fv-hidden-submit"
                                 style="display: none; width: 0px; height: 0px;"></button>
@@ -113,8 +113,8 @@
                 </div>
             </div>
             <footer class="page-copyright">
-                <p>© 2017
-                    <a href="" target="_blank">Eurasia DSS</a>
+                <p>© 2018
+                    <a href="" target="_blank">Corpse DSS</a>
                 </p>
             </footer>
         </div>
@@ -124,7 +124,7 @@
             <div class="vertical-align">
                 <div class="vertical-align-middle">
                     <h2 class="hidden-xs" style="font-size: 24px;">学生登录</h2>
-                    <p class="hidden-xs">Eurasia Decision Support System</p>
+                    <p class="hidden-xs">Corpse Decision Support System</p>
                     <div class="login-form fv-form fv-form-bootstrap" id="registers" novalidate="novalidate">
                         <button type="submit" class="fv-hidden-submit"
                                 style="display: none; width: 0px; height: 0px;"></button>
@@ -161,8 +161,8 @@
                 </div>
             </div>
             <footer class="page-copyright">
-                <p>© 2017
-                    <a href="" target="_blank">Eurasia DSS</a>
+                <p>© 2018
+                    <a href="" target="_blank">Corpse DSS</a>
                 </p>
             </footer>
         </div>

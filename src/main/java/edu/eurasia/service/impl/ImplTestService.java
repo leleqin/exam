@@ -94,5 +94,20 @@ public class ImplTestService implements TestService {
         return testDao.randomTestData();
     }
 
+    @Override
+    public Integer testCountC() {
+        return testDao.testCountC();
+    }
+
+    @Override
+    public List<Test> singlePageTestC(PageUtils page) {
+        PageUtils pageUtils = new PageUtils();
+        pageUtils.setCurrentIndex((page.getCurrentIndex() - 1) * page.getLimitIndex());
+        pageUtils.setLimitIndex(page.getLimitIndex());
+        System.out.println(pageUtils.getCurrentIndex());
+        System.out.println(pageUtils.getLimitIndex());
+        return testDao.singlePageTestC(pageUtils);
+    }
+
 
 }

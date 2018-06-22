@@ -124,7 +124,9 @@
     $("#testList").css("display","none");
     $("#submitJava").css("display","none");
     $("#examOver").css("display","none");
-
+    $("#testListC").css("display","none");
+    $("#submitC").css("display","none");
+    $("#examOverC").css("display","none");
 
 </script>
 
@@ -137,6 +139,7 @@
             , element = layui.element;
         var $ = layui.$;
 
+        /*Java*/
         var answer = [];
         form.on('submit(startExam)',function () {
             $.ajax({
@@ -167,7 +170,7 @@
                 }
             })
         })
-
+        /*Java试题提交*/
         form.on('submit(submissionJava)',function () {
             console.log(answer);
             let selectRadio = [];

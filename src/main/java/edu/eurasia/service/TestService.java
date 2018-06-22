@@ -59,4 +59,8 @@ public interface TestService {
     List<Test> randomTestC();
 
     List<Test> randomTestData();
+
+    Integer testCountC();
+
+    List<Test> singlePageTestC(PageUtils pageUtils);
 }

@@ -55,4 +55,8 @@ public interface TestDao {
     List<Test> randomTestC();
 
     List<Test> randomTestData();
+
+    Integer testCountC();
+
+    List<Test> singlePageTestC(PageUtils pageUtils);
 }
